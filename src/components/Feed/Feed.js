@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./Feed.css";
 import EditIcon from "@mui/icons-material/Edit";
-import { Input } from "@mui/material";
+
 import InputItems from "./InputItems/InputItems";
 import PhotoIcon from "@mui/icons-material/Photo";
 import Post from "./Post/Post";

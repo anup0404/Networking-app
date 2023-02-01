@@ -1,5 +1,4 @@
 import { useAuth0 } from '@auth0/auth0-react'
-import userEvent from '@testing-library/user-event'
 import React from 'react'
 import './Sidebar.css'
 
@@ -8,7 +7,7 @@ function Sidebar() {
 
     function recentItem(topic, link) {
         return (
-            <a style={{ textDecoration: 'none' }} href={link} target="_blank">
+            <a style={{ textDecoration: 'none' }} href={link} target="_blank" rel='noreferrer'>
                 <div className='sidebar_recentItem'>
                     <span className='sidebar_hash'>#</span>
                     <p>{topic} </p>

@@ -38,7 +38,7 @@ function Widgets() {
 
 
 const news=(headline,link)=>(
-<a href={link} target="_blank" style={{textDecoration:'none'}}>
+<a href={link} target="_blank" rel="noreferrer" style={{textDecoration:'none'}}>
 <div className="widgets">
   <div className='widgets_left'>
 <FiberManualRecordIcon style={{width:"10px",height:"10px",color:'gray'}}/>

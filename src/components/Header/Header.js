@@ -4,7 +4,6 @@ import "./Header.css";
 import SearchIcon from "@mui/icons-material/Search";
 import Button from "@mui/material/Button";
 import { useAuth0 } from "@auth0/auth0-react";
-import { filledInputClasses } from "@mui/material";
 
 function Header() {
   const { user, logout } = useAuth0();
@@ -17,7 +16,7 @@ function Header() {
     <div className="header_container">
       <div className="header_left">
         <Link to="/">
-          <img
+          <img alt="this is a logo"
             className="header_image"
             src="https://i.pinimg.com/564x/8c/12/6e/8c126e576516e476effb619aa655a572.jpg"
           />

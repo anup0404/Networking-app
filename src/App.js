@@ -5,12 +5,12 @@ import Login from "./components/Login/Login";
 import AboutUs from "./components/AboutUs/AboutUs";
 import Header from "./components/Header/Header";
 import Home from "./components/Home/Home";
-import Feed from "./components/Feed/Feed";
+
 import { useAuth0 } from "@auth0/auth0-react";
 
 function App() {
   const{isAuthenticated}=useAuth0()
-  const user = null;
+  
 
   return (
     <div>
