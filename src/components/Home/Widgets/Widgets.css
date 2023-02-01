@@ -1,0 +1,46 @@
+.widgets_container{
+    border: 1px solid lightgray ;
+    flex: 0.2;
+    position:sticky;
+    margin:30px;
+    top: 100px;
+    border-radius: 10px;
+    height: fit-content;
+    background-color: white;
+}
+
+.widgets_header{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 10px;
+    
+}
+.widgets_header>h2{
+    font-size:.9rem;
+    
+    font-weight: 500;
+
+}
+.widgets{
+    display: flex;
+    align-items: center;
+    margin: 5px 10px;
+    padding: 5px 0px;
+}
+.widgets:hover{
+    background-color: whitesmoke;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.widgets_left{
+    padding:0 10px;
+}
+.widgets_right{
+    padding-top: 10px;
+}
+.widgets_right>h1{
+font-size: 0.9rem;
+
+}
