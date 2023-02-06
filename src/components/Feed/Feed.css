@@ -41,3 +41,8 @@
     cursor: pointer;
     font-weight: 600;
 }
+@media (max-width: 1100px) {
+    .feed_container {
+        flex: 0.9;
+    }
+}

@@ -25,8 +25,8 @@
 .sidebar_top>img {
     width: 100%;
     margin-bottom: -20px;
-    height: 80px;
-    object-fit: cover;
+    height: 250px;
+    object-fit: fill;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
@@ -38,6 +38,7 @@
 
 .sidebar_top>h2 {
     font-size: 18px;
+
 }
 
 .sidebar_stats {
@@ -100,4 +101,15 @@
 
 .sidebar_hash {
     margin: 0 10px;
+}
+@media (max-width: 1100px) {
+    .sidebar {
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 630px) {
+    .sidebar {
+        display: none;
+    }
 }

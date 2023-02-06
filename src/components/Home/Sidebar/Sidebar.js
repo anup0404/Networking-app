@@ -4,6 +4,8 @@ import './Sidebar.css'
 
 function Sidebar() {
     const{user}=useAuth0()
+   
+
 
     function recentItem(topic, link) {
         return (
@@ -18,7 +20,7 @@ function Sidebar() {
     return (
         <div className='sidebar'>
             <div className='sidebar_top'>
-                <img src='https://images.unsplash.com/photo-1554034483-04fda0d3507b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8ZGVza3RvcCUyMHBsYWluJTIwd2FsbHBhcGVyc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60' alt='' />
+                <img  src={user?.picture}  alt='profile' />
                 <h2>{user?.name}</h2>
                 <h4>{user?.email}</h4>
             </div>
